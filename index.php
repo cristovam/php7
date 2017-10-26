@@ -1,5 +1,5 @@
 <?php
 
-echo "A vida é foda às vezes! Né não? Hein ô, caraio!";
+echo "A vida é foda às vezes! Né não? Hein? ";
 
 ?>
