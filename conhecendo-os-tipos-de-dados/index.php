@@ -31,5 +31,31 @@ $filePaths = array_map("add_link_path", $fileNames);
 $files = implode(", ", $filePaths);
 ?>
 <p><strong>Partituras/Tablaturas:</strong> <?php echo $files; ?></p>
+
+<?php
+$a = 10;
+$b = 10;
+var_dump($a <=> $b);
+?>
+
+<?php
+$pessoas = array();
+
+array_push($pessoas, array(
+	'nome'=>'neném',
+	'idade'=>36
+));
+
+array_push($pessoas, array(
+	'nome'=>'kellen',
+	'idade'=>24
+));
+
+echo json_encode($pessoas);
+
+
+
+?>
+
 </body>
 </html>
